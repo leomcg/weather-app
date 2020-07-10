@@ -1,5 +1,4 @@
 @import "./base";
-@import "./grid";
 @import "./variables";
 
 main {
@@ -8,9 +7,6 @@ main {
   background-image: linear-gradient(to right bottom, rgb(212, 61, 167), rgb(68, 5, 110));
 }
 
-// .row {
-//   background-color: orangered;
-// }
 .search-bar {
   text-align: center;
 
@@ -33,7 +29,7 @@ main {
   text-align: center;
   margin-bottom: 1rem;
   color: $color-white;
-  font-size: 3rem;
+  font-size: 4rem;
   text-shadow: .2rem .2rem .5rem rgba(0, 0, 0, .5);
 }
 
@@ -42,6 +38,7 @@ main {
   margin-bottom: 3rem;
   color: $color-white;
   text-shadow: .2rem .2rem .5rem rgba(0, 0, 0, .5);
+  font-size: 2rem;
 }
 
 .status {
