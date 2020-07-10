@@ -3,8 +3,12 @@ const api = {
   baseurl: 'https://api.openweathermap.org/data/2.5'
 }
 
+
+
 const searchbox = document.querySelector('.search-box');
 searchbox.addEventListener('keypress', setQuery);
+
+getResults('sao paulo')
 
 function setQuery(evt) {
   if (evt.keyCode === 13) {
@@ -63,7 +67,7 @@ function dateBuilder (d) {
 function getIcon(weather) {
   if (weather === 'Rain') {
     return 'wi wi-rain';
-  } else if (weather === 'Clouds') {
+  } else {
     return 'wi-day-cloudy'
   }
 }
