@@ -44,9 +44,20 @@ main {
   text-shadow: .2rem .2rem .5rem rgba(0, 0, 0, .5);
 }
 
+.status {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  max-width: 30rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
 .temperature {
   text-align: center;
-  font-size: 8rem;
+  font-size: 11rem;
   margin-bottom: 3rem;
   color: $color-white;
   text-shadow: .3rem .8rem .5rem rgba(0, 0, 0, .3);
@@ -54,9 +65,9 @@ main {
   letter-spacing: .2rem;
 }
 
-.icon {
+.current-icon {
   text-align: center;
-  font-size: 7rem;
+  font-size: 8rem;
   margin-bottom: 3rem;
   color: $color-white;
   font-weight: 200;
@@ -71,8 +82,9 @@ main {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 50%;
-  font-size: 2.5rem;
+  width: 80%;
+  max-width: 50rem;
+  font-size: 4rem;
   color: $color-white;
   border-radius: 2rem 0 2rem 0;
 }
@@ -121,6 +133,7 @@ main {
 }
 
 footer {
+  margin-top: 7rem;
   font-family: 'Procrastinating Pixie';
   font-size: 1.5em;
   color: $color-grey-light-2;

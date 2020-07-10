@@ -11,12 +11,17 @@
     <section class="today">
       <div class="row">
         <div class="search-bar">
-          <input type="text" placeholder="Search city...">
+          <input class="search-box" type="text" placeholder="Search city...">
         </div>
         <div class="city">Rio de Janeiro, RJ</div>
         <div class="current-date">Quinta, 9 de Julho de 2020</div>
-        <div class="temperature">
-          <i class="wi wi-day-sunny icon"></i> 25°
+        <div class="status">
+          <div class="current-icon">
+            <i class="wi wi-day-sunny"></i>
+          </div>
+          <div class="temperature">
+             25°
+          </div>
         </div>
         <div class="weather-container">
           <div class="rain-chance box">
@@ -24,23 +29,23 @@
               <i class="wi wi-rain"></i>
             </div>
             <div class="right">
-              <p>80%</p>
+              <p class="current-chance-of-rain">80%</p>
             </div>
           </div>
           <div class="min-max box">
             <div class="left">
               <p class="min">Min &darr;</p>
-              <p>12°</p>
+              <p class="current-min">12°</p>
             </div>
             <div class="right">
               <p class="max">Max &uarr;</p>
-              <p>25°</p>
+              <p class="current-max">25°</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="next-days">
+    <!-- <section class="next-days">
       <div class="row">
         <h4 class="next-days__heading">Próximos dias</h4>
         <div class="weather-container">
@@ -65,8 +70,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <footer>LEOMCG</footer>
+
+    <script src="main.js"></script>
   </main>
   
 </body>
